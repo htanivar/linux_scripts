@@ -1,0 +1,11 @@
+#!/bin/bash
+hostName="$(uname -n)"
+echo "Hostname = ${hostName}"
+kernalName="$(uname -s)"
+echo "Kernal Name = ${kernalName}"
+kernalRelease="$(uname -r)"
+echo "Kernal Release = ${kernalRelease}"
+kernalVersion="$(uname -v)"
+echo "Kernal Version = ${kernalVersion}"
+ipAddress="$(hostname -i)"
+echo "IP Address = ${ipAddress}"
